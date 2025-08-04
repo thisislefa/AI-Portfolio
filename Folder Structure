@@ -1,0 +1,6 @@
+AI-Portfolio/
+├── index.html          (Main website file)
+├── style.css           (Styling)
+├── script.js           (AI chatbot & animations)
+├── README.md           (Project documentation)
+└── assets/             (Images/icons)
