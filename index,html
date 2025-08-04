@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Portfolio | Defcon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 <span class="ai-gradient">Defcon</span></h1>
+            <p>AI & Web Development Expert</p>
+            <button id="theme-toggle">🌙 Dark Mode</button>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Hello, I'm <span class="ai-gradient">Defcon</span></h2>
+                <p>Building the future with AI & cutting-edge web tech.</p>
+            </div>
+            <div class="hero-image">
+                <div class="glowing-orb"></div>
+            </div>
+        </section>
+        
+        <section class="projects">
+            <h3>✨ My Projects</h3>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h4>AI Chatbot</h4>
+                    <p>An intelligent assistant powered by GPT-4.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Neural Art Generator</h4>
+                    <p>Create stunning AI-generated artwork.</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="ai-chatbot">
+            <div class="chat-header">🤖 AI Assistant</div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <input type="text" id="user-input" placeholder="Ask me anything...">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
